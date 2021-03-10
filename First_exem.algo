@@ -1,0 +1,23 @@
+ALGORITHM algorithm_name
+VAR
+    i :Char ;
+    Cont1: INTEGER:=0;
+    Cont2 :INTEGER :=1;
+    Cont3 : INTEGER :=0;
+
+BEGIN
+      While (i=char and i!= '') DO
+         Cont1=Cont1+1
+   END_WHILE
+   
+    while (i='') DO
+        Cont1= Cont2+1
+    END_WHILE
+
+    while (i='a','e','i','o','u') DO
+           Cont3= Cont3+1
+    END_WHILE
+    Write(count1)
+    Write(count2)
+    Write(count3)
+END
